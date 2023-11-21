@@ -1,0 +1,113 @@
+.center-both{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.form-query{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 6px;
+    margin: 0 auto;
+    
+    /* text-align: center;
+    width: 90%;
+    border-width: 1px; 
+    border-radius: 40px;
+    padding: 20px;
+    border-style: solid;*/
+
+    /* border-left: 50px; */
+    /* border-right: 5px; */
+    /* height: 20px; */
+    /* padding: 2px; */
+}
+
+.form-query input{
+    flex: 1;
+    border: none;
+    outline:none;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.submit-button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 169px;
+}
+.submit-button input{
+    margin-right: 20px;
+    background-color: #f8f9fa;
+    border-radius: 30px;
+    border: 1px solid #f7f8f9;
+    border-radius: 3px;
+    outline: none;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* working on the Google Images page to go back to the google search page */
+.going-to-main{
+    display:flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+    border:none;
+}
+
+/* changing the color and font of the line in advanced search */
+.texting-you{
+    padding-left: 57px;
+    color: rgb(213, 30, 30);
+    font-size: 22px;
+}
+
+/* getting the line in Advanced Google  */
+.line{
+    border: 0.5px solid #dfe1e5;
+}
+
+.texts{
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.last-intake{
+    display: flex;
+    flex-direction:column;
+    font-size: 15px;
+
+}
+
+.all-words input,.exact-word input,.any-word input,.none-word input,.number-range input{
+    padding-left: 400px;
+    height: 28px;
+    border: solid #dfe1e5;
+}
+
+.all-words label{
+    margin-right: 100px;
+}
+
+.exact-word label{
+    margin-right: 45px;
+}
+
+.any-word label{
+    margin-right: 77px;
+}
+
+.none-word label{
+    margin-right: 70px;
+}
+
+.number-range label{
+    margin-right: 59px;
+}
